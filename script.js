@@ -1,7 +1,7 @@
 //your JS code here. If required.
 const submit = document.getElementById('submit'); 
-let p1 = document.getElementById('player-1');
-let p2 = document.getElementById('player-2');
+let p1 = document.getElementById('player1');
+let p2 = document.getElementById('player2');
 const info = document.querySelector('.inputs');
 const bord = document.querySelector('.bord-container');
 const boxes = document.querySelectorAll('.box');
