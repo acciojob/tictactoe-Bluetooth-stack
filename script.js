@@ -29,6 +29,7 @@ function start(){
     info.style.display = "none";
     bord.style.display = "flex";
     player = p1.value
+	msg.textContent=`${player}, you're up`;
     // console.log(player);
     game();
 }
@@ -37,7 +38,7 @@ function game(){
     boxes.forEach((box)=>{
         box.addEventListener('click', boxClick);
     });
-    msg.textContent=`${player}, you're up`;
+    // msg.textContent=`${player}, you're up`;
     running = true;
 }
 
