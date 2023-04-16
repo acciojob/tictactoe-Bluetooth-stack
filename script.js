@@ -1,13 +1,13 @@
 //your JS code here. If required.
 const submit = document.getElementById('submit'); 
-let p1 = document.querySelector('#player-1');
-let p2 = document.querySelector('#player-2');
+let p1 = document.getElementById('player-1');
+let p2 = document.getElementById('player-2');
 const info = document.querySelector('.inputs');
 const bord = document.querySelector('.bord-container');
 const boxes = document.querySelectorAll('.box');
 let msg = document.querySelector('.message');
-let x = 'X';
-let o = 'O';
+let x = 'x';
+let o = 'o';
 let running = false;
 let win = [
     [0,1,2],
